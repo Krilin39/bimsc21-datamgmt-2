@@ -56,8 +56,11 @@ function init () {
 // function to continuously render the scene
 function animate() {
 
+    
+
     requestAnimationFrame( animate )
     renderer.render( scene, camera )
+
 
 }
 
